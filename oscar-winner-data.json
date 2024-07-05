@@ -1,0 +1,42 @@
+[
+	{
+		"Epoch Time of Scrape": "1720210788741",
+		"isWinner": "true",
+		"Awards": "2",
+		"Year": "2024",
+		"Title": "Movie 0",
+		"Nomination": "5"
+	},
+	{
+		"Epoch Time of Scrape": "1720210788743",
+		"isWinner": "false",
+		"Awards": "3",
+		"Year": "2024",
+		"Title": "Movie 1",
+		"Nomination": "6"
+	},
+	{
+		"Epoch Time of Scrape": "1720210788744",
+		"isWinner": "false",
+		"Awards": "4",
+		"Year": "2024",
+		"Title": "Movie 2",
+		"Nomination": "7"
+	},
+	{
+		"Epoch Time of Scrape": "1720210788745",
+		"isWinner": "false",
+		"Awards": "5",
+		"Year": "2024",
+		"Title": "Movie 3",
+		"Nomination": "8"
+	},
+	{
+		"Epoch Time of Scrape": "1720210788747",
+		"isWinner": "false",
+		"Awards": "6",
+		"Year": "2024",
+		"Title": "Movie 4",
+		"Nomination": "9"
+	}
+]

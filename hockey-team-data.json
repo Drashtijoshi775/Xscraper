@@ -1,0 +1,32 @@
+[
+	{
+		"Epoch Time of Scrape": "1720210787714",
+		"Team Name": "Team 0",
+		"Year": "2024",
+		"Win %": "0.35"
+	},
+	{
+		"Epoch Time of Scrape": "1720210787722",
+		"Team Name": "Team 1",
+		"Year": "2024",
+		"Win %": "0.39999999999999997"
+	},
+	{
+		"Epoch Time of Scrape": "1720210787722",
+		"Team Name": "Team 2",
+		"Year": "2024",
+		"Win %": "0.44999999999999996"
+	},
+	{
+		"Epoch Time of Scrape": "1720210787723",
+		"Team Name": "Team 3",
+		"Year": "2024",
+		"Win %": "0.5"
+	},
+	{
+		"Epoch Time of Scrape": "1720210787723",
+		"Team Name": "Team 4",
+		"Year": "2024",
+		"Win %": "0.55"
+	}
+]

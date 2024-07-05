@@ -1,0 +1,24 @@
+{
+    "actions": [
+        {
+            "COMMAND": null,
+            "RESPONSE": null
+        },
+        {
+            "COMMAND": "[1720210781.902][INFO]: [31bf3b2d6418bdb7dac343ddaef8eeb7] COMMAND InitSession {\n   \"capabilities\": {\n      \"firstMatch\": [ {\n         \"browserName\": \"chrome\",\n         \"goog:chromeOptions\": {\n            \"args\": [ \"--remote-allow-origins=*\" ],\n            \"binary\": \"C:\\\\Program Files (x86)\\\\Google\\\\Chrome\\\\Application\\\\chrome.exe\",\n            \"extensions\": [  ]\n         },\n         \"goog:loggingPrefs\": {\n            \"browser\": \"ALL\",\n            \"driver\": \"ALL\"\n         }\n      } ]\n   }\n}\n",
+            "RESPONSE": "[1720210783.545][INFO]: [31bf3b2d6418bdb7dac343ddaef8eeb7] RESPONSE InitSession {\n   \"capabilities\": {\n      \"acceptInsecureCerts\": false,\n      \"browserName\": \"chrome\",\n      \"browserVersion\": \"126.0.6478.127\",\n      \"chrome\": {\n         \"chromedriverVersion\": \"126.0.6478.126 (d36ace6122e0a59570e258d82441395206d60e1c-refs/branch-heads/6478@{#1591})\",\n         \"userDataDir\": \"C:\\\\Users\\\\DELL\\\\AppData\\\\Local\\\\Temp\\\\scoped_dir25552_1013909195\"\n      },\n      \"fedcm:accounts\": true,\n      \"goog:chromeOptions\": {\n         \"debuggerAddress\": \"localhost:49186\"\n      },\n      \"networkConnectionEnabled\": false,\n      \"pageLoadStrategy\": \"normal\",\n      \"platformName\": \"windows\",\n      \"proxy\": {\n      },\n      \"setWindowRect\": true,\n      \"strictFileInteractability\": false,\n      \"timeouts\": {\n         \"implicit\": 0,\n         \"pageLoad\": 300000,\n         \"script\": 30000\n      },\n      \"unhandledPromptBehavior\": \"dismiss and notify\",\n      \"webauthn:extension:credBlob\": true,\n      \"webauthn:extension:largeBlob\": true,\n      \"webauthn:extension:minPinLength\": true,\n      \"webauthn:extension:prf\": true,\n      \"webauthn:virtualAuthenticators\": true\n   },\n   \"sessionId\": \"31bf3b2d6418bdb7dac343ddaef8eeb7\"\n}\n"
+        },
+        {
+            "COMMAND": "[1720210784.053][INFO]: [31bf3b2d6418bdb7dac343ddaef8eeb7] COMMAND MaximizeWindow {\n}\n",
+            "RESPONSE": "[1720210784.174][INFO]: [31bf3b2d6418bdb7dac343ddaef8eeb7] RESPONSE MaximizeWindow {\n   \"height\": 840,\n   \"width\": 1552,\n   \"x\": -8,\n   \"y\": -8\n}\n"
+        },
+        {
+            "COMMAND": "[1720210784.229][INFO]: [31bf3b2d6418bdb7dac343ddaef8eeb7] COMMAND Navigate {\n   \"url\": \"https://www.scrapethissite.com/pages/\"\n}\n",
+            "RESPONSE": "[1720210787.672][INFO]: [31bf3b2d6418bdb7dac343ddaef8eeb7] RESPONSE Navigate\n"
+        },
+        {
+            "COMMAND": "[1720210787.761][INFO]: [31bf3b2d6418bdb7dac343ddaef8eeb7] COMMAND Navigate {\n   \"url\": \"https://www.scrapethissite.com/pages/\"\n}\n",
+            "RESPONSE": "[1720210788.697][INFO]: [31bf3b2d6418bdb7dac343ddaef8eeb7] RESPONSE Navigate\n"
+        }
+    ]
+}

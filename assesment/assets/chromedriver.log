@@ -1,0 +1,169 @@
+[1720210781.201][INFO]: Starting ChromeDriver 126.0.6478.126 (d36ace6122e0a59570e258d82441395206d60e1c-refs/branch-heads/6478@{#1591}) on port 23782
+[1720210781.201][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1720210781.902][INFO]: [31bf3b2d6418bdb7dac343ddaef8eeb7] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--remote-allow-origins=*" ],
+            "binary": "C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe",
+            "extensions": [  ]
+         },
+         "goog:loggingPrefs": {
+            "browser": "ALL",
+            "driver": "ALL"
+         }
+      } ]
+   }
+}
+[1720210781.903][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1720210781.904][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1720210781.906][INFO]: ChromeDriver supports communication with Chrome via pipes. This is more reliable and more secure.
+[1720210781.906][INFO]: Use the --remote-debugging-pipe Chrome switch instead of the default --remote-debugging-port to enable this communication mode.
+[1720210781.910][INFO]: Launching chrome: "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --allow-pre-commit-input --disable-background-networking --disable-backgrounding-occluded-windows --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-automation --enable-logging --log-level=0 --no-first-run --no-service-autorun --password-store=basic --remote-allow-origins=* --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\DELL\AppData\Local\Temp\scoped_dir25552_1013909195" data:,
+[1720210783.095][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1720210783.545][INFO]: [31bf3b2d6418bdb7dac343ddaef8eeb7] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": false,
+      "browserName": "chrome",
+      "browserVersion": "126.0.6478.127",
+      "chrome": {
+         "chromedriverVersion": "126.0.6478.126 (d36ace6122e0a59570e258d82441395206d60e1c-refs/branch-heads/6478@{#1591})",
+         "userDataDir": "C:\\Users\\DELL\\AppData\\Local\\Temp\\scoped_dir25552_1013909195"
+      },
+      "fedcm:accounts": true,
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:49186"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:extension:credBlob": true,
+      "webauthn:extension:largeBlob": true,
+      "webauthn:extension:minPinLength": true,
+      "webauthn:extension:prf": true,
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "31bf3b2d6418bdb7dac343ddaef8eeb7"
+}
+[1720210784.053][INFO]: [31bf3b2d6418bdb7dac343ddaef8eeb7] COMMAND MaximizeWindow {
+}
+[1720210784.053][INFO]: Waiting for pending navigations...
+[1720210784.055][INFO]: Done waiting for pending navigations. Status: ok
+[1720210784.173][INFO]: Waiting for pending navigations...
+[1720210784.174][INFO]: Done waiting for pending navigations. Status: ok
+[1720210784.174][INFO]: [31bf3b2d6418bdb7dac343ddaef8eeb7] RESPONSE MaximizeWindow {
+   "height": 840,
+   "width": 1552,
+   "x": -8,
+   "y": -8
+}
+[1720210784.229][INFO]: [31bf3b2d6418bdb7dac343ddaef8eeb7] COMMAND Navigate {
+   "url": "https://www.scrapethissite.com/pages/"
+}
+[1720210784.229][INFO]: Waiting for pending navigations...
+[1720210784.230][INFO]: Done waiting for pending navigations. Status: ok
+[1720210785.412][INFO]: Waiting for pending navigations...
+[1720210787.672][INFO]: Done waiting for pending navigations. Status: ok
+[1720210787.672][INFO]: [31bf3b2d6418bdb7dac343ddaef8eeb7] RESPONSE Navigate
+[1720210787.696][INFO]: [31bf3b2d6418bdb7dac343ddaef8eeb7] COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "return document.readyState"
+}
+[1720210787.697][INFO]: Waiting for pending navigations...
+[1720210787.699][INFO]: Done waiting for pending navigations. Status: ok
+[1720210787.710][INFO]: Waiting for pending navigations...
+[1720210787.711][INFO]: Done waiting for pending navigations. Status: ok
+[1720210787.711][INFO]: [31bf3b2d6418bdb7dac343ddaef8eeb7] RESPONSE ExecuteScript "complete"
+[1720210787.761][INFO]: [31bf3b2d6418bdb7dac343ddaef8eeb7] COMMAND Navigate {
+   "url": "https://www.scrapethissite.com/pages/"
+}
+[1720210787.761][INFO]: Waiting for pending navigations...
+[1720210787.762][INFO]: Done waiting for pending navigations. Status: ok
+[1720210788.181][INFO]: Waiting for pending navigations...
+[1720210788.697][INFO]: Done waiting for pending navigations. Status: ok
+[1720210788.697][INFO]: [31bf3b2d6418bdb7dac343ddaef8eeb7] RESPONSE Navigate
+[1720210788.715][INFO]: [31bf3b2d6418bdb7dac343ddaef8eeb7] COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "return document.readyState"
+}
+[1720210788.715][INFO]: Waiting for pending navigations...
+[1720210788.722][INFO]: Done waiting for pending navigations. Status: ok
+[1720210788.733][INFO]: Waiting for pending navigations...
+[1720210788.736][INFO]: Done waiting for pending navigations. Status: ok
+[1720210788.736][INFO]: [31bf3b2d6418bdb7dac343ddaef8eeb7] RESPONSE ExecuteScript "complete"
+[1720210788.780][INFO]: [31bf3b2d6418bdb7dac343ddaef8eeb7] COMMAND CloseWindow {
+}
+[1720210788.976][SEVERE]: Unable to receive message from renderer
+[1720210789.276][INFO]: [31bf3b2d6418bdb7dac343ddaef8eeb7] RESPONSE CloseWindow [  ]
